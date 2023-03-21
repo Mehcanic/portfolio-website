@@ -12,7 +12,7 @@
   margin: 1 auto;
   padding: 0 1rem;
 
-  .contact-img{
+  #contact-img{
     width: 100%;
     border: 10px solid $clr-image-border;
     max-width: 215px;
@@ -79,7 +79,44 @@
     padding: 1rem;
 
     img {
+      width: 100%;
+      max-width: 50px;
+      margin: 0 auto;
       filter: invert(72%) sepia(24%) saturate(1902%) hue-rotate(325deg) brightness(99%) contrast(95%);
+      cursor: pointer;
+      margin-bottom: .5rem;
+    }
+
+    p {
+      font-size: $font-size-medium;
+      font-weight: $font-weight-light;
+      text-align: center;
+      width: 100%;
+    }
+
+    a {
+      color: $clr-primary;
+      text-decoration: none;
+      font-size: $font-size-medium;
+      font-weight: $font-weight-light;
+      text-align: center;
+    }
+
+    a:hover {
+      color: $clr-primary;
+    }
+  }
+
+  #contact-icons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    @media (max-width: $desktop) and (min-width: $tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media (min-width: $desktop) {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 }

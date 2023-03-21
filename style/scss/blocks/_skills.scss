@@ -65,11 +65,11 @@
     }
   }
 
-  @media (max-width: $laptop) and (min-width: $tablet) {
+  @media (max-width: $desktop) and (min-width: $tablet) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (min-width: $laptop) {
+  @media (min-width: $desktop) {
     grid-template-columns: repeat(3, 1fr);
   }
 }

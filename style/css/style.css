@@ -16,6 +16,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -55,6 +56,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -133,6 +135,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -203,12 +206,12 @@ img {
     transform: none !important;
   }
 }
-@media (max-width: 940px) and (min-width: 720px) {
+@media (max-width: 1140px) and (min-width: 720px) {
   #skills {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 940px) {
+@media (min-width: 1140px) {
   #skills {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -232,6 +235,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -271,6 +275,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -349,6 +354,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -419,12 +425,12 @@ img {
     transform: none !important;
   }
 }
-@media (max-width: 940px) and (min-width: 720px) {
+@media (max-width: 1140px) and (min-width: 720px) {
   #skills {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 940px) {
+@media (min-width: 1140px) {
   #skills {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -483,6 +489,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -522,6 +529,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -600,6 +608,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -670,12 +679,12 @@ img {
     transform: none !important;
   }
 }
-@media (max-width: 940px) and (min-width: 720px) {
+@media (max-width: 1140px) and (min-width: 720px) {
   #skills {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 940px) {
+@media (min-width: 1140px) {
   #skills {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -723,6 +732,7 @@ header img {
   }
   header #profile-description {
     width: 85%;
+    margin: 0 auto;
   }
   header #profile-description h1 {
     font-size: 3rem;
@@ -764,6 +774,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -803,6 +814,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -881,6 +893,7 @@ summary {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -951,12 +964,12 @@ img {
     transform: none !important;
   }
 }
-@media (max-width: 940px) and (min-width: 720px) {
+@media (max-width: 1140px) and (min-width: 720px) {
   #skills {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 940px) {
+@media (min-width: 1140px) {
   #skills {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -970,7 +983,7 @@ img {
   margin: 1 auto;
   padding: 0 1rem;
 }
-#contact .contact-img {
+#contact #contact-img {
   width: 100%;
   border: 10px solid #5e5a63;
   max-width: 215px;
@@ -1025,7 +1038,42 @@ img {
   padding: 1rem;
 }
 #contact .box-contact img {
+  width: 100%;
+  max-width: 50px;
+  margin: 0 auto;
   filter: invert(72%) sepia(24%) saturate(1902%) hue-rotate(325deg) brightness(99%) contrast(95%);
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+#contact .box-contact p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+#contact .box-contact a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+}
+#contact .box-contact a:hover {
+  color: #fff;
+}
+#contact #contact-icons {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (max-width: 1140px) and (min-width: 720px) {
+  #contact #contact-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1140px) {
+  #contact #contact-icons {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 body {
