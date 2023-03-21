@@ -1,29 +1,48 @@
 @import "../rest/reset";
 @import "../rest/variables";
 @import "../components/buttons";
-@import "../components/skill";
+@import "../blocks/skills";
 
 
 #about {
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: $desktop;
 
-  
 
-  #skills {
+  h2 {
+    font-size: $font-size-xlarge;
+    font-weight: $font-weight-bold;
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
-
-    h2 {
-      font-size: $font-size-xlarge;
-      font-weight: $font-weight-bold;
-      text-align: center;
-      width: 100%;
-      margin: 1rem auto;
-    }
+  }
+  
+  p {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-light;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: .7rem;
+  }
+  
+  button {
+    margin: 0 auto;
+    
   }
 
-
+  #personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 

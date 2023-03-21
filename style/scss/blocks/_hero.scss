@@ -1,0 +1,80 @@
+@import "../rest/reset";
+@import "../rest/variables";
+@import "../components/buttons";
+@import "../blocks/skills";
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: $desktop;
+
+  color: $clr-primary;
+  font-family: $font-primary;
+  text-align: center;
+  padding: 2rem;
+
+  h1 {
+    font-size: $font-size-xxlarge;
+    font-weight: $font-weight-bold;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: $font-size-large;
+    font-weight: $font-weight-bold;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-light;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+    max-width: 720px;
+    margin: 1rem 0;
+  }
+
+  @media screen and (min-width: $laptop) {
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    #profile-description {
+      width: 85%;
+      
+      h1 {
+        font-size: $font-size-xxlarge;
+        font-weight: $font-weight-bold;
+        margin-bottom: 1rem;
+      }
+      
+      h2 {
+        font-size: $font-size-large;
+        font-weight: $font-weight-bold;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        font-size: $font-size-medium;
+        font-weight: $font-weight-light;
+        margin-bottom: 1rem;
+      }
+      
+      img {
+        width: 85%;
+        max-width: 1190px;
+        margin-bottom: 1rem;
+      }
+    }
+  }    
+}
