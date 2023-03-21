@@ -1,0 +1,31 @@
+
+  // screen size
+  $desktop: 1140px;
+  $laptop: 940px;
+  $tablet: 720px;
+  $mobile: 480px;
+  
+  // color
+  $clr-primary: #fff;
+  $clr-secondary: #000;
+  
+  $clr-background: #2d2933;
+  $clr-background-gradient: linear-gradient(#5e5a63, #2d2933);
+  
+  $clr-button-font: #ffffff;
+  $clr-button-background: #f7914d;
+  $clr-button-background-accent: #ffffff4d;
+
+  $box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  
+  // font
+  $font-primary: 'Poppins', sans-serif;
+  $font-weight-light: 400;
+  $font-weight-medium: 500;
+  $font-weight-bold: 700;
+
+  $font-size-small: 0.8rem;
+  $font-size-normal: 1rem;
+  $font-size-medium: 1.125rem;
+  $font-size-large: 1.5rem;
+  $font-size-xlarge: 2rem;

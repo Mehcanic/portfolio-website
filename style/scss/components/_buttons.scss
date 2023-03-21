@@ -1,0 +1,48 @@
+@import "../rest/reset";
+@import "../rest/variables";
+
+button {
+  background-color: $clr-button-background;
+  color: $clr-button-font;
+  position: relative;
+  display: inline-block;
+  font-size: $font-size-medium;
+  font-weight: $font-weight-bold;
+  
+  // width:500px
+  padding: 0.5rem 1rem;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-out;
+  
+  overflow: hidden;
+  cursor: pointer;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: $clr-button-background-accent;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-out;
+  }
+  
+  &:hover::before {
+    width: 200%;
+    height: 200%;
+  }
+  
+  &:active::before {
+    width: 300%;
+    height: 300%;
+    transition-duration: 0.5s;
+    opacity: 0;
+  }
+}

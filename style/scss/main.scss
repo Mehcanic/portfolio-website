@@ -1,4 +1,13 @@
+@import "./rest/reset";
+@import "./rest/variables";
+@import "./components/buttons";
+@import "./components/skill";
+
+@import "./blocks/about";
+
+
 body {
-  background: blue;
-  color: #fff;
+  background: $clr-background-gradient;
+  color: $clr-primary;
+  font-family: $font-primary;
 }

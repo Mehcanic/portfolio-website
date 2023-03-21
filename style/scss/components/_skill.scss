@@ -1,0 +1,56 @@
+@import "../rest/reset";
+@import "../rest/variables";
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 20rem;
+  height: 7rem;
+  padding: 1rem;
+  margin: 1rem;
+
+  border-radius: 0.5rem;
+  background-color: $clr-background;
+
+  box-shadow: $box-shadow;
+  transition: all 0.3s ease-out;
+
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: $box-shadow;
+  }
+
+  &:active {
+    transform: translateY(-0.2rem);
+    box-shadow: $box-shadow;
+    transition: transform 0.3s ease-out;
+  }
+
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-bold;
+    margin-bottom: 0.5rem;
+    margin-top: .4rem;
+  }
+
+  @media (max-width: $laptop) {
+    &:hover {
+      transform: none !important;
+
+    }
+  
+    &:active {
+      transform: none !important;
+    }
+  }
+}
