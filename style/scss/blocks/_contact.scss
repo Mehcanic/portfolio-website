@@ -40,7 +40,7 @@
   // TODO Change display flex from none to flex to show form.
   // ! For now only icons will be added to the contact section.
   form {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
