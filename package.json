@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch style/scss/main.scss style/css/style.css",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "author": "Lukasz Bialy",
+  "license": "ISC",
+  "devDependencies": {
+    "@compodoc/live-server": "^1.2.3",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.59.3"
+  }
+}
