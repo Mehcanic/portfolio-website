@@ -110,16 +110,9 @@
   #contact-icons {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
-    @media (max-width: $desktop) and (min-width: $tablet) {
-      grid-template-columns: repeat(2, 1fr);
-      .box-contact {
-        border-bottom: none;
-      }
-    }
-    
-    @media (min-width: $desktop) {
-      grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    @media (min-width: $tablet) {
+      grid-template-columns: repeat(3, 1fr);
       .box-contact {
         border-bottom: none;
       }
