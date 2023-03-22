@@ -6,10 +6,15 @@
 @import "./blocks/about";
 @import "./blocks/hero";
 @import "./blocks/contact";
+@import "./blocks/portfolio";
 
 
 body {
   background: $clr-background-gradient;
   color: $clr-primary;
   font-family: $font-primary;
+}
+
+section, header {
+  border-bottom: 1px solid $clr-primary;
 }

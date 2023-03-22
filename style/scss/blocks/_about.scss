@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
   width: 100%;
   max-width: $desktop;
 
@@ -35,7 +35,8 @@
   
   button {
     margin: 0 auto;
-    
+    width: 320px;
+    height: 60px;
   }
 
   #personal-info {

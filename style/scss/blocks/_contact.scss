@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   margin: 1 auto;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
 
   #contact-img{
     width: 100%;
@@ -113,10 +113,16 @@
     
     @media (max-width: $desktop) and (min-width: $tablet) {
       grid-template-columns: repeat(2, 1fr);
+      .box-contact {
+        border-bottom: none;
+      }
     }
     
     @media (min-width: $desktop) {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
+      .box-contact {
+        border-bottom: none;
+      }
     }
   }
 }
