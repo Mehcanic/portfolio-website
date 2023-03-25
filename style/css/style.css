@@ -696,15 +696,18 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100%;
+  justify-content: flex-end;
+  background-image: url("../../../images/bg-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-height: 700px;
   margin: 0 auto;
-  padding: 0 1rem;
-  max-width: 1140px;
+  width: 100%;
   color: #fff;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  padding: 2rem;
 }
 #header-container h1 {
   font-size: 3rem;
@@ -731,12 +734,18 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: none;
+    padding-bottom: 2rem;
   }
   #header-container #profile-description {
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     height: 100%;
     width: 85%;
     margin: 0 auto;
+    padding: 1rem;
   }
   #header-container #profile-description h1 {
     font-size: 3rem;
