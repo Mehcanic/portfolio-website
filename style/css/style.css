@@ -723,6 +723,7 @@ img {
   font-size: 1.125rem;
   font-weight: 400;
   margin-bottom: 1rem;
+  padding: 0 2rem;
 }
 #header-container img {
   width: 100%;
