@@ -14,7 +14,7 @@
     ],
     "headers": [
       {
-        "source": "./style/css/style.css",
+        "source": "style.css",
         "headers": [
           {
             "key": "Content-Type",
