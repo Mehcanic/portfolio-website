@@ -14,7 +14,7 @@
     ],
     "headers": [
       {
-        "source": "style.css",
+        "source" : "**/*.@(jpg|jpeg|gif|png|css|js)",
         "headers": [
           {
             "key": "Content-Type",
